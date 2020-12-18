@@ -1,0 +1,48 @@
+Resumen de Pasos para crear redes:
+
+
+1. escoger componentes y armar topologia
+
+2. nombrar componentes desde dentro
+
+3. conexion fisica de componenentes
+
+4. conexion logica de componentes
+
+5. configurar PC (ip, mascara)
+
+
+SWITCH
+
+6. crear las vlan incluyendo la nativa - apartir
+ de las subredes
+
+7. configurar switch modo access para vlan
+
+8. configurar vlan nativa troncal 
+
+9. configurar nombre, ip y gateway del switch
+
+
+ROUTER
+
+10. configurar subinterfaces de vlan
+
+11. rutas estaticas o dinamicas(RIP) 
+
+12. configurar ruta principal y de respaldo
+
+13. configurar una ruta predeterminada
+
+
+
+
+14. SSH
+
+15. habiliotar vty
+
+16. DCHP excluir redes que pidan
+17. DHCP pool LAN luego asignar la red
+
+18. ACL
+19. NAT
